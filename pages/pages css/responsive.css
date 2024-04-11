@@ -92,6 +92,14 @@
 .copy{
     grid-template-columns: 1fr;
 }
+
+nav{
+    height: 3rem;
+}
+
+.logo img {
+    height: 3rem;
+}
 }
 
 /* homepage mobile wview 
@@ -110,7 +118,7 @@ homepage mobile wview */
 
   .threelines img{
     margin: 0;
-    
+
   }
 
   .threelines a, .threelines{
@@ -201,5 +209,14 @@ homepage mobile wview */
     justify-content: space-between;
     flex-wrap: wrap;
   }
+
+  nav{
+    height: 2rem;
+    padding: 1.5rem;
+}
+
+.logo img {
+    height: 2rem;
+}
 
 }
