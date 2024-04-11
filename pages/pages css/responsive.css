@@ -1,0 +1,204 @@
+@media screen and (min-width: 300px) and (max-width: 1135px) {
+  header h1 {
+    font-size: 2.1rem;
+  }
+  .headline {
+    padding: 2rem 2rem 0 2rem;
+  }
+
+  .tagline h3 {
+    font-size: 1.4rem;
+  }
+  header {
+    height: 72vh;
+  }
+
+  /* about us about us about us about us about us 
+    about us about us about us about us about us 
+    about us about us about us about us about us  */
+
+  aside > p,
+  aside > h1 {
+    padding: 0rem 5.067rem 1rem 5.067rem;
+  }
+  .about-us {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: auto;
+    gap: 1rem;
+    padding: 2rem 0 0 0;
+  }
+  .about-img {
+    max-height: 18rem;
+    object-fit: contain;
+  }
+  .about-text {
+    margin: 2rem 0;
+  }
+
+  .about-img img {
+    max-height: 100%;
+  }
+  .about-num {
+    display: none;
+  }
+
+  /* service service service service service service 
+    service service service service service service 
+    service service service service service service  */
+
+  .service-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* videography videography videography videography 
+    videography videography videography videography 
+    videography videography videography videography  */
+
+  .testi-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .testi-text {
+    margin: 2rem 2rem;
+  }
+
+  .testimonial-container {
+    width: 85%;
+  }
+
+  .model-text h1 {
+    font-size: 1.3rem;
+  }
+
+  .model-text p {
+    margin: 0 0rem 1rem 0rem;
+  }
+
+  .links{
+    display: none;
+  }
+
+  footer {
+    padding: 1rem 2rem;
+  }
+
+  .copyright {
+    margin: 1rem 0;
+    width: 100%;
+
+}
+
+.copy{
+    grid-template-columns: 1fr;
+}
+}
+
+/* homepage mobile wview 
+homepage mobile wview
+homepage mobile wview */
+
+@media screen and (min-width: 200px) and (max-width: 767px) {
+  .headline h1 {
+    font-size: 1.5rem;
+    padding: 7rem 0rem 1rem 0rem;
+  }
+
+  nav{
+    padding: 2rem;
+  }
+
+  .threelines img{
+    margin: 0;
+  }
+
+  .threelines a, .threelines{
+    margin: 0;
+  }
+
+
+
+  .tagline h3 {
+    font-size: 1rem;
+  }
+
+  aside > p,
+  aside > h1 {
+    padding: 0rem 2rem 1rem 2rem;
+  }
+
+  aside > h1,
+  .about-text > h1,
+  .services > h1,
+  .video-text h1,
+  .events > h1,
+  footer > h1 {
+    font-size: 1.8rem;
+  }
+
+  aside > p,
+  .about-text > p,
+  .cta a,
+  .services p,
+  .section p,
+  .video-text a,
+  .testi-author p,
+  footer p {
+    font-size: 0.87rem;
+  }
+
+  .about-text h3,
+  .testi-text > h1,
+  .testi-author h2,
+  .events > h2,
+  .fot-cont h2, .ev-text-cont h2 {
+    font-size: 1rem;
+  }
+
+  .container h2,
+  footer > h1 {
+    font-size: 1.3rem;
+  }
+
+  .service-container {
+    grid-template-columns: 1fr;
+  }
+  .section {
+    width: 80%;
+    margin: 1rem auto;
+  }
+
+  .videography {
+    grid-template-columns: 1fr;
+  }
+
+  .video-img {
+    height: 20rem;
+  }
+
+  .video-text {
+    padding: 0;
+  }
+  .model {
+    grid-template-columns: 1fr;
+  }
+
+  .events > h1 {
+    margin: 0.8rem;
+  }
+
+  .event-container {
+    grid-template-columns: 1fr;
+    margin-bottom: 2rem;
+  }
+
+  .event-text {
+    padding: 0;
+  }
+  .footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+}
