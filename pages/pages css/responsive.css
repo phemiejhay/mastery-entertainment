@@ -167,7 +167,7 @@ homepage mobile wview */
   .services > h1,
   .video-text h1,
   .events > h1,
-  footer > h1 {
+  footer > h1, .text-more h1 {
     font-size: 1.8rem;
   }
 
@@ -189,7 +189,9 @@ homepage mobile wview */
   .fot-cont h2, .ev-text-cont h2 {
     font-size: 1rem;
   }
-
+.text-more{
+    padding: 1.3rem;
+}
   .container h2,
   footer > h1 {
     font-size: 1.3rem;
