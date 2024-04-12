@@ -223,7 +223,7 @@ aside > p {
   justify-content: center;
   align-items: center;
 }
-
+.about-num{display: none;}
 .about-num ul {
   color: var(--color-secondary);
   font-family: var(--poppins);
@@ -489,6 +489,8 @@ videography videography videography videography videography  */
 }
 .video-img{
   height: 28rem;
+  display: flex;
+  justify-content: center;
 }
 .video-img img{
   height: 100%;
@@ -729,6 +731,7 @@ input {
 .copyright {
   color: var(--color-light);
   font-family: var(--poppins);
+  text-align: center;
   margin: 1rem 1rem 1rem 0;
 }
 .copyright a {

@@ -108,6 +108,23 @@ html {
 }
 
 
+
+.text-more{
+    color: var(--color-light);
+    margin: 0 auto 2rem;
+    padding: 4rem;
+    text-align: center;
+    font-family: var(--poppins);
+}
+
+.text-more h1{
+    font-size: 2rem;
+    margin: 2rem;
+    color: var(--color-secondary);
+    font-family: var(--krona);
+}
+
+
     /* team team team team team team team team 
     team team team team team team team team 
     team team team team team team team team 
