@@ -100,6 +100,32 @@ nav{
 .logo img {
     height: 3rem;
 }
+
+.logo-menu img{
+    height: 3rem;
+}
+.menu-popup{
+    padding: 1.3rem;
+}
+.store h1 {
+    text-align: center;
+}
+.more-ser-container{
+    grid-template-columns: 1fr 1fr;
+}
+.videography{
+    /* margin: 6rem 1rem; */
+    padding: 1rem;
+    width: 90%;
+}
+
+.team{
+    padding: 1rem;
+}
+
+.team-container {
+    grid-template-columns: 1fr 1fr;
+}
 }
 
 /* homepage mobile wview 
@@ -218,5 +244,50 @@ homepage mobile wview */
 .logo img {
     height: 2rem;
 }
+
+.logo-menu img{
+    height: 3rem;
+}
+.menu-popup{
+    padding: 1.3rem;
+}
+
+/* 
+contact page contact page contact page
+contact page contact page contact page 
+ */
+
+.contact-form{
+    grid-template-columns: 1fr;
+}
+
+
+
+/* Booking Page Booking Page  Booking Page  Booking Page 
+Booking Page Booking Page  Booking Page  Booking Page  */
+
+.row-1, .row-3, .row-4{
+    grid-template-columns: 1fr;
+}
+
+.row-4{
+    gap: 1rem;
+}
+.more-ser-container{
+    grid-template-columns: 1fr;
+}
+
+.team-container {
+    grid-template-columns: 1fr;
+}
+
+
+.more-services{
+    padding: 2rem;
+}
+.more-services h1{
+    font-size: 1.7rem;
+}
+
 
 }
